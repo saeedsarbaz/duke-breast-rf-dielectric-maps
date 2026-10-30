@@ -1,0 +1,8 @@
+# Large data are uploaded as release assets, not committed to the repository.
+GT100_data_part_*.zip
+*.partial
+cases/
+*.nii
+*.nii.gz
+__pycache__/
+*.pyc

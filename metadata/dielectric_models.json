@@ -1,0 +1,211 @@
+{
+  "fixed_curves": {
+    "skin": [
+      4.0,
+      [
+        32.0,
+        1100.0,
+        0.0,
+        0.0
+      ],
+      [
+        7.234e-12,
+        3.2481000000000005e-08,
+        0.000159155,
+        0.015915
+      ],
+      [
+        0.0,
+        0.2,
+        0.2,
+        0.2
+      ],
+      0.0
+    ],
+    "muscle": [
+      4.0,
+      [
+        50.0,
+        7000.0,
+        1200000.0,
+        25000000.0
+      ],
+      [
+        7.234e-12,
+        3.53678e-07,
+        0.00031831,
+        0.002274
+      ],
+      [
+        0.1,
+        0.1,
+        0.1,
+        0.0
+      ],
+      0.2
+    ],
+    "tumor": [
+      6.749,
+      [
+        50.09
+      ],
+      [
+        1.05e-11
+      ],
+      [
+        0.051
+      ],
+      0.794
+    ]
+  },
+  "normal_bound_curves": {
+    "minimum": [
+      2.293,
+      [
+        0.141
+      ],
+      [
+        1.64e-11
+      ],
+      [
+        0.251
+      ],
+      0.002
+    ],
+    "group3_low": [
+      2.908,
+      [
+        1.2
+      ],
+      [
+        1.6879999999999998e-11
+      ],
+      [
+        0.069
+      ],
+      0.02
+    ],
+    "group3_median": [
+      3.14,
+      [
+        1.708
+      ],
+      [
+        1.465e-11
+      ],
+      [
+        0.061
+      ],
+      0.036
+    ],
+    "group3_high": [
+      4.031,
+      [
+        3.654
+      ],
+      [
+        1.4119999999999999e-11
+      ],
+      [
+        0.055
+      ],
+      0.083
+    ],
+    "group1_low": [
+      9.941,
+      [
+        26.6
+      ],
+      [
+        1.0900000000000001e-11
+      ],
+      [
+        0.003
+      ],
+      0.462
+    ],
+    "group1_median": [
+      7.821,
+      [
+        41.48
+      ],
+      [
+        1.066e-11
+      ],
+      [
+        0.047
+      ],
+      0.713
+    ],
+    "group1_high": [
+      6.151,
+      [
+        48.26
+      ],
+      [
+        1.026e-11
+      ],
+      [
+        0.049
+      ],
+      0.809
+    ],
+    "maximum": [
+      1.0,
+      [
+        66.31
+      ],
+      [
+        7.585e-12
+      ],
+      [
+        0.063
+      ],
+      1.37
+    ]
+  },
+  "parameter_order": [
+    "epsilon_infinity",
+    "delta_epsilon_per_pole",
+    "tau_seconds_per_pole",
+    "alpha_per_pole",
+    "sigma_static_S_per_m"
+  ],
+  "epsilon_0_F_per_m": 8.854187817e-12,
+  "detailed_label_bounds": {
+    "1": [
+      "group1_low",
+      "group1_median"
+    ],
+    "2": [
+      "group1_median",
+      "group1_high"
+    ],
+    "3": [
+      "group1_high",
+      "maximum"
+    ],
+    "5": [
+      "minimum",
+      "group3_low"
+    ],
+    "6": [
+      "group3_low",
+      "group3_median"
+    ],
+    "7": [
+      "group3_median",
+      "group3_high"
+    ]
+  },
+  "fixed_label_curves": {
+    "-3": "tumor",
+    "-2": "skin",
+    "-1": "muscle"
+  },
+  "sources": {
+    "fat_fgt": "https://uwcem.ece.wisc.edu/MRIdatabase/InstructionManual.pdf",
+    "skin_muscle": "https://niremf.ifac.cnr.it/docs/DIELECTRIC/AppendixC.html",
+    "tumor": "https://doi.org/10.1088/0031-9155/52/20/002"
+  }
+}

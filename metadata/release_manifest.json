@@ -1,0 +1,82 @@
+{
+  "preparation_date": "2026-10-30",
+  "status": "local_draft_not_published",
+  "content": "data_documentation_and_compact_25d_model",
+  "cases": 100,
+  "nifti_files": 1800,
+  "nifti_bytes": 21978095745,
+  "archive_parts": 13,
+  "tier_counts": {
+    "Tier-A": 36,
+    "Tier-B": 64
+  },
+  "tumor_mask_sources": {
+    "expert_mask": 36,
+    "compact_ensemble": 40,
+    "accepted_mamamia_prediction": 24
+  },
+  "map_frequencies_GHz": [
+    0.915,
+    2.45,
+    6
+  ],
+  "generation_band_GHz": [
+    0.5,
+    20
+  ],
+  "voxel_spacing_mm": [
+    1,
+    1,
+    1
+  ],
+  "dimensions_min": {
+    "dim_i": 270,
+    "dim_j": 270,
+    "dim_k": 141
+  },
+  "dimensions_max": {
+    "dim_i": 401,
+    "dim_j": 401,
+    "dim_k": 271
+  },
+  "current_sources_match_recorded_hashes": true,
+  "archive_payload_hashes_verified": true,
+  "geometry_headers_checked": 1800,
+  "full_content_verification": {
+    "passed": true,
+    "archived_voxel_arrays_checked": 1800,
+    "binary_masks_matching_anatomical_labels": 600,
+    "composition_records_matched": 1100,
+    "dielectric_summary_records_checked": 6600,
+    "dielectric_summary_fields": ["mean", "std", "minimum", "maximum"],
+    "sensitivity_baseline_records_matched": 6600,
+    "dielectric_maps_independently_checked": 600,
+    "coefficient_sets_matching_verified_record": 11,
+    "tumor_localization_checks": 100,
+    "tier_B_localization_passes": 64,
+    "manuscript_tables_checked": [1, 2, 3, 5],
+    "manuscript_numeric_cells_matched": 212,
+    "sensitivity_perturbations_rerun": false,
+    "new_clinical_validation": false
+  },
+  "header_scan": "limited text-field and extension check; not a clinical de-identification certification",
+  "source_files_modified": false,
+  "code_or_weights_included": true,
+  "model_supplement": {
+    "path": "models/compact_25d_unet",
+    "architectures": 1,
+    "original_fold_checkpoints": 6,
+    "checkpoint_bytes": 6522636,
+    "architecture_parameters": 264553,
+    "original_checkpoint_hash_matches": 6,
+    "strict_cpu_load_checks": 6,
+    "checkpoints_reserialized": false,
+    "retraining_performed": false,
+    "patient_predictions_regenerated": false,
+    "broader_processing_training_pipeline_included": false
+  },
+  "raw_DICOM_included": false,
+  "license_decision": "author_and_institution_confirmation_pending",
+  "publication_signoff": "pending; preparation does not resolve existing scientific-review findings",
+  "manuscript_snapshot": "57c24e70b88490914ff5027174c43973676b602b"
+}
