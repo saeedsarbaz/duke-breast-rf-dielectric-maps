@@ -1,5 +1,13 @@
 # An MRI-Derived Data Set of 100 Tumor-Bearing Breast Models with Frequency-Dependent Dielectric Maps
 
+**[Download dataset: 100 cases in 13 ZIPs (draft release)](https://github.com/saeedsarbaz/duke-breast-rf-dielectric-maps/releases/tag/untagged-4d242075758568a29c4a)**
+
+Open **Assets** on that page and download the required `GT100_data_part_*.zip`
+files, or all 13 parts for the complete data set (about 22 GB). Sign in as
+`saeedsarbaz`, or as a collaborator with write access, to view the private draft.
+The [Releases page](https://github.com/saeedsarbaz/duke-breast-rf-dielectric-maps/releases)
+also lists the draft.
+
 This distribution contains 100 bilateral breast models derived from
 Duke breast magnetic resonance imaging (MRI). Each case includes aligned MRI, anatomical tissue masks,
 detailed fat and fibroglandular tissue (FGT) labels, property coordinates, and
