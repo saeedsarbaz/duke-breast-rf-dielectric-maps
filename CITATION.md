@@ -6,9 +6,16 @@ Working manuscript title:
 
 **An MRI-Derived Data Set of 100 Tumor-Bearing Breast Models with Frequency-Dependent Dielectric Maps**
 
-The final authors, publication citation, data-release version, and data DOI remain
-to be confirmed. No placeholder author names or invented DOI are presented as
-a completed citation. Finalize these fields before making the release public.
+Authors:
+
+- Saeed Sarbazzadeh Khosroshahi
+- Gülşah Yıldız Altıntaş
+- Cemanur Aydınalp
+
+Public research prerelease:
+[gt100-2026-10-30-author-review](https://github.com/saeedsarbaz/duke-breast-rf-dielectric-maps/releases/tag/gt100-2026-10-30-author-review).
+The journal publication citation and data DOI remain to be confirmed; no DOI
+or journal publication details have been invented.
 
 The in-house 2.5-D U-Net definition and fold weights are part of this same
 resource. Cite the final study and relevant source annotations when reusing

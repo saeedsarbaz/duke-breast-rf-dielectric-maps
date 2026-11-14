@@ -2,6 +2,8 @@
 
 **[Download dataset: 100 cases in 13 ZIPs](https://github.com/saeedsarbaz/duke-breast-rf-dielectric-maps/releases/tag/gt100-2026-10-30-author-review)**
 
+**[Download SHA-256 checksums](https://github.com/saeedsarbaz/duke-breast-rf-dielectric-maps/releases/download/gt100-2026-10-30-author-review/SHA256SUMS.txt)**
+
 Open **Assets** on that page and download the required `GT100_data_part_*.zip`
 files, or all 13 parts for the complete data set (about 22 GB). No sign-in is
 required to download the public release assets.
@@ -17,9 +19,15 @@ included in [the model folder](models/compact_25d_unet/README.md). The broader
 processing/training pipeline, MAMA-MIA weights, and raw DICOM are not included.
 
 **Status: public research prerelease.**
-Author and citation details and the final distribution license notice remain
+Journal citation details and the final distribution license notice remain
 pending. Applicable upstream source terms still apply. See
 [Sources and Terms](SOURCES_AND_TERMS.md) and the review notes in the report.
+
+## Authors
+
+- Saeed Sarbazzadeh Khosroshahi
+- Gülşah Yıldız Altıntaş
+- Cemanur Aydınalp
 
 ## Start Here
 
