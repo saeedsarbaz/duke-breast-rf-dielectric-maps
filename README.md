@@ -1,12 +1,12 @@
 # An MRI-Derived Data Set of 100 Tumor-Bearing Breast Models with Frequency-Dependent Dielectric Maps
 
-**[Download dataset: 100 cases in 13 ZIPs (draft release)](https://github.com/saeedsarbaz/duke-breast-rf-dielectric-maps/releases/tag/untagged-4d242075758568a29c4a)**
+**[Download dataset: 100 cases in 13 ZIPs](https://github.com/saeedsarbaz/duke-breast-rf-dielectric-maps/releases/tag/gt100-2026-10-30-author-review)**
 
 Open **Assets** on that page and download the required `GT100_data_part_*.zip`
-files, or all 13 parts for the complete data set (about 22 GB). Sign in as
-`saeedsarbaz`, or as a collaborator with write access, to view the private draft.
+files, or all 13 parts for the complete data set (about 22 GB). No sign-in is
+required to download the public release assets.
 The [Releases page](https://github.com/saeedsarbaz/duke-breast-rf-dielectric-maps/releases)
-also lists the draft.
+also lists this public prerelease.
 
 This distribution contains 100 bilateral breast models derived from
 Duke breast magnetic resonance imaging (MRI). Each case includes aligned MRI, anatomical tissue masks,
@@ -16,9 +16,9 @@ The in-house 2.5-D U-Net definition and its six original fold checkpoints are
 included in [the model folder](models/compact_25d_unet/README.md). The broader
 processing/training pipeline, MAMA-MIA weights, and raw DICOM are not included.
 
-**Status: locally prepared draft for author review, not a published release.**
-The authors must confirm the release version, source terms, citation, and
-remaining review items before making the data public. See
+**Status: public research prerelease.**
+Author and citation details and the final distribution license notice remain
+pending. Applicable upstream source terms still apply. See
 [Sources and Terms](SOURCES_AND_TERMS.md) and the review notes in the report.
 
 ## Start Here
